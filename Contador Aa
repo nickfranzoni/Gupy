@@ -1,0 +1,8 @@
+def verificar_letra_a(texto):
+   
+    contador = texto.lower().count('a')
+
+    if contador > 0:
+        return f"A letra 'a' aparece {contador} vezes na string."
+    else:
+        return "A letra 'a' não aparece na string."
